@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+thead tr th{
+    text-align: left;
+}
+html{ 
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    min-height: 100vh;
+    margin: 0;
+    padding: 25px;
+    background: linear-gradient(to top left, black, hotpink);
+    color: white;
+}
+main{
+    max-width: 800px;
+    margin: 25px auto;
+    padding: 10px;
+    text-align: center;
+}
+section{
+    border-radius: 8px;
+    background: linear-gradient(to right, black, hotpink);
+    box-shadow: 5px 5px 10px #000;
+    padding: 12px;
+    margin: 15px;
+}
+fieldset{
+    border: none;
+}
+label, input{
+    display: block;
+    padding: 5px;
+    margin: 5px auto;
+    width: 50%;
+    max-width: 400px;
+    text-align: left;
+    
+}
+input{
+    border: 4px inset black;
+}
+input:focus{
+    outline: 5px solid rgb(128, 0, 78);
+}
